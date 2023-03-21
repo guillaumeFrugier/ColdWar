@@ -1,0 +1,16 @@
+name: ColdWar
+version: '${project.version}'
+main: coldwar.coldwar.ColdWar
+api-version: 1.19
+authors: [ dr_guinea_pig ]
+description: a cold war mod
+commands:
+  create:
+    description: create the country
+    permission: ColdWar.create
+    usage: /create
+
+  join:
+    description: join a country
+    permission: ColdWar.join
+    usage: /join
